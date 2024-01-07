@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section{
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.one {
+  background-image: url('images/ESanPedro.jpg');
+  background-size: cover;
+  -webkit-filter: brightness(0.7);
+  filter: brightness(0.7);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one h3,
+.one h1 {
+  color: #fff;
+  margin: 5px 0;
+}
+
+.one h1 {
+  font-size: 80px;
+  text-shadow: 3px 3px 7px black;
+}
+
+.one p {
+  color: #fff;
+  text-shadow: 4px 4px 8px black;
+  font-size: 15px;
+}
+
+.one h3 {
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.two{
+  margin: 0;
+  padding: 0;
+  background-image: url(images/bgfinal.png);
+  background-size: cover;
+  -webkit-filter: brightness(0.7);
+  filter: brightness(0.7);
+}
+
+.two h1{
+  text-shadow: 4px 8px 8px black;
+  font-size: 35px;
+  margin-left: 521px;
+  color: #fff;
+}
+
+.photogallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+
+.photogallery img{
+  border: 2px solid hsl(0, 0%, 97%);
+  flex-wrap: wrap;
+  width: 320px;
+  height: 280px;
+  margin: 10px 0;
+}
+.photogallery h1{
+  margin-bottom: 100px;
+  float:right;
+}
+
+.three{
+  background-image: url(images/bgfinal.png);
+  background-size: cover;
+  -webkit-filter: brightness(0.7);
+  filter: brightness(0.7);
+}
+
+.three h1{
+  text-shadow: 4px 8px 8px black;
+  font-size: 35px;
+  margin-bottom: 90px;
+  margin-left: 550px;
+  color: #fff;
+}
+
+.four{
+  background-image: url(images/bgfinal.png);
+  background-size: cover;
+  -webkit-filter: brightness(0.7);
+  filter: brightness(0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+}
+
+.wrapper{
+  background: #fff;
+  width: 180vh;
+  height: 50vh;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+hr{
+  width: 100px;
+  margin: 10px auto;
+}
+
+.wrapper h2{
+  color: #ffffff;
+  text-align: center;
+}
+
+.kagawad{
+  display: flex;
+}
+
+.kagawads{
+  margin: 8px;
+}
+
+.kagawad img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.kagawad h4,p{
+  text-align: center;
+  font-size: 12px;
+  margin: 7px;
+  color: #ffffff;
+}
+
+.four h1{
+  color: #fff;
+}
+
+.gallery {
+  display: inline-block;
+  border: 5px solid hsl(0, 0%, 90%);
+  margin: 10px;
+}
+
+.gallery .description {
+  color: #fff;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.493);
+  text-align: center;
+}
+
+.gallery:hover{
+  border: 5px solid hsl(56, 90%, 46%);
+  height: auto;
+}
+
+.gallery img{
+  width: 400px;
+  height: 300px;
+}
